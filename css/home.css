@@ -130,3 +130,39 @@ table {
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+  font-family: "Cormorant";
+  background-color: #FAF6F6;
+}
+.container {
+  max-width: 880px;
+  background-color: #F7EDE2;
+  margin: 0 auto;
+}
+.container header {
+  display: flex;
+  flex-direction: column;
+}
+.container header h1 {
+  font-size: 6rem;
+  text-align: center;
+  color: #4B3B47;
+}
+.container header nav {
+  background-color: #F7EDE2;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 20px 0px;
+}
+.container header nav a {
+  color: #4B3B47;
+  text-align: center;
+  text-decoration: none;
+}
+.container .main-content {
+  display: flex;
+  justify-content: space-between;
+}
