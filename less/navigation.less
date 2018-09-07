@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: @border-color;
+        padding: 30px 0px;
+        
+        @media @phone {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            width: 50px;
+            height: auto;
+
+            @media @phone {
+                display: none;
+            }
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        nav {
+            @media @phone {
+                display: flex;
+                flex-basis: column;
+            }
+            a {
+                font-size: 1.6rem;
+                text-decoration: none;
+            }
+        }
+    }
+}
